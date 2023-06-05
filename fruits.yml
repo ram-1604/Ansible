@@ -1,0 +1,5 @@
+---
+- my_fruits: # single value  furits: apple and multiple give - and then starts 
+  - apple
+  - orange
+  - kaju

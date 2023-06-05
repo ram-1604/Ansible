@@ -1,0 +1,24 @@
+---
+- My_students: 
+  - name: Ram
+    Phono: 1234
+    address:
+      doorno: 1234
+      strret: ymr colony
+      pincode: 516360
+
+
+  - name: Ramesh
+    Phono: 12345
+    address: 
+      doorno: 12345
+      strret: Gandhi road
+      pincode: 560037
+
+
+  - name: Suresh
+    Phono: 9876
+    address:
+      doorno: 123467
+      strret: saikutter road
+      pincode: 516361
