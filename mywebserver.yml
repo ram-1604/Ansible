@@ -15,11 +15,11 @@
   
     - name: I want o install webserver on redhat nodes
       ansible.builtin.dnf:
-        name: httpd >= 2.4
+        name: httpd
         state: present
       when: ansible_os_family == "RedHat"
     - name: i want to start the webserver in redhat nodes
       service:
-        name: httpd >= 2.4
+        name: httpd
         state: started
       when: ansible_os_amily == "RedHat"
