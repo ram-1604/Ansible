@@ -6,10 +6,10 @@
       apt:  
         name: "{{java_pack_ubutnu_node}}"
         state: present
-      when: anisble_os_family=="Debian"
+      when: ansible_os_family=="Debian"
     - name: install java on redhat node
       ansible.builtin.dnf:
       apt:  
         name: "{{java_pack_redhat_node}}"
         state: present
-      when: anisble_os_family=="RedHat"
+      when: ansible_os_family=="RedHat"
