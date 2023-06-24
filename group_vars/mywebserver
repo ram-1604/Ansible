@@ -2,5 +2,5 @@
 myvar: value
 mywebpackforubuntu: apache2
 mywebpackforredhat: httpd
-java_pack_ubutnu_node: openjdk-8-jdk    
+java_pack_ubutnu_node: openjdk-17-jre    
 java_pack_redhat_node: java-1.8.0-amazon-corretto
